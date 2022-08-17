@@ -5,7 +5,7 @@ def is_element_present(browser):
     try:
         link = 'http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/'
         browser.get(link)
-        time.sleep(30)
+        #time.sleep(30)
         browser.find_element(By.CLASS_NAME, "btn-add-to-basket")
         return True
     except:
